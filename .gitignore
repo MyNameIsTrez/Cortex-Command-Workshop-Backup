@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# Allow folders
+!*/
+
+# Allow placeholder files since they ensure that their parent folder will be included by Git
+!**/.placeholder
+
+# Allow Python files
+!main.py
+!python/*.py
+!requirements.txt
+
+# Miscellaneous
+!.gitignore
+!README.md
+!settings.json
+!example_settings.json

@@ -1,14 +1,14 @@
-import json
+import vdf
 
 
-with open("209670_subscriptions.vdf") as f:
-	data = json.load(f)
+def get_mod_ids(settings):
+	mod_ids = []
 
-	ids = []
+	with open(settings["vdf_path"]) as f:
+		data = vdf.parse(f)["subscribedfiles"]
 
-	for v in data.values():
-		ids.append(int(v["publishedfileid"]))
+		for v in data.values():
+			if isinstance(v, dict):
+				mod_ids.append(int(v["publishedfileid"]))
 
-	print(ids)
-	with open("../mod_ids.json", "w") as of:
-		of.write(json.dumps(ids))
+	return mod_ids
