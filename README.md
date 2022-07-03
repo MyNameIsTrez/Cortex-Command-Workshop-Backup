@@ -1,10 +1,8 @@
 # Cortex-Command-Workshop-Backup
 
-This repository holds all of Cortex Command's Steam Workshop mods.
+This repository is used to download all mods of a game you're currently subscribed to on the Steam Workshop.
 
-This backup was created because it has become impossible to download these mods through Steam, which is most likely the result of a Steam API update which the game won't ever be updated for.
-
-These backed up mods are currently being updated to the [Cortex Command Community Project](https://cortex-command-community.github.io/) version of the game, and once that is done this repository will be deleted.
+This tool was created out of necessity due to the game Cortex Command having been unable to download its Workshop mods for ages, most likely due to a change in the Steam Workshop API and the game not receiving updates anymore. Using this tool, these mods are being updated to the open-source version of Cortex Command, the [Cortex Command Community Project](https://cortex-command-community.github.io/).
 
 # Instructions
 1. Subscribe to all mods you want to download of a game.
