@@ -10,7 +10,6 @@ def main():
 
 	with open(settings_path) as f:
 		settings = json.load(f)
-		# print(settings)
 
 		mod_ids = get_mod_ids.get_mod_ids(settings)
 		download_mods.download_mods(mod_ids, settings)
