@@ -1,4 +1,4 @@
-# Cortex-Command-Workshop-Backup
+# Steam-Workshop-Bulk-Subscription-Downloader
 
 This repository is used to download all mods of a game you're currently subscribed to on the Steam Workshop.
 
